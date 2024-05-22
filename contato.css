@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea, footer {
+    font-family: "Ubuntu", sans-serif;
+}
+
+header {
+    padding:16px 0;
+    background-color:#c06f13;
+    color: #f1db5b;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header li a {
+    color: #f1db5b;
+    text-decoration: none;
+}
+
+section{
+    padding: 24px 0;
+    color: #c06f13;
+    background-color:#f1db5b ;
+}
+
+#contato .container {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #c06f13;
+    color: #f1db5b;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cc8e48;
+}
+
+input:focus, textarea:focus {
+    outline-color: #c06f13;
+}
+
+footer {
+    background-color: #c06f13;
+    color: #f1db5b;
+    padding: 16px 0;
+}
