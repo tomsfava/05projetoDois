@@ -6,7 +6,7 @@
 
 header,
 h3 {
-    font-family: "Poetsen One", sans-serif;
+    font-family: "Permanent Marker", cursive;
     font-weight: normal;
 }
 
@@ -16,8 +16,8 @@ body, input, textarea, footer {
 
 header {
     padding:16px 0;
-    background-color:#c06f13;
-    color: #f1db5b;
+    background-color:#681004;
+    color: #e7dda4;
 }
 
 header li {
@@ -27,19 +27,25 @@ header li {
 }
 
 header li a {
-    color: #f1db5b;
+    color: #e7dda4;
     text-decoration: none;
 }
 
 section{
     padding: 24px 0;
-    color: #c06f13;
-    background-color:#f1db5b ;
+    color: #681004;
+    background-color:#e7dda4 ;
 }
 
 #contato .container {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
 }
 
 .container {
@@ -70,22 +76,22 @@ form textarea {
 }
 
 form button {
-    background-color: #c06f13;
-    color: #f1db5b;
+    background-color: #681004;
+    color: #e7dda4;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #cc8e48;
+    background-color: #a12b1b;
 }
 
 input:focus, textarea:focus {
-    outline-color: #c06f13;
+    outline-color: #681004;
 }
 
 footer {
-    background-color: #c06f13;
-    color: #f1db5b;
+    background-color: #681004;
+    color: #e7dda4;
     padding: 16px 0;
 }

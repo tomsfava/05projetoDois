@@ -8,7 +8,7 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: "Poetsen One", sans-serif;
+    font-family: "Permanent Marker", cursive;
     font-weight: normal;
 }
 
@@ -18,8 +18,8 @@ body, input, textarea, footer {
 
 header {
     padding:16px 0;
-    background-color:#aa6517;
-    color: #f1db5b;
+    background-color:#681004;
+    color: #e7dda4;
 }
 
 header li {
@@ -29,7 +29,7 @@ header li {
 }
 
 header li a {
-    color: #f1db5b;
+    color: #e7dda4;
     text-decoration: none;
 }
 
@@ -50,14 +50,6 @@ section .container{
     justify-content: space-between;
 }
 
-.listademarcas img{
-    height:24px;
-}
-
-.listademarcas li{
-    display:inline;
-    margin-right: 8px;
-}
 
 section .container{
     align-items: flex-start;
@@ -66,7 +58,7 @@ section .container{
 section{
     padding: 24px 0;
     color: #aa6517;
-    background-color:#f1db5b ;
+    background-color:#e7dda4 ;
 }
 
 section h2{
@@ -137,7 +129,7 @@ section h3 {
 
 
 footer {
-    background-color: #aa6517;
-    color: #f1db5b;
+    background-color: #681004;
+    color: #e7dda4;
     padding: 16px 0;
 }
